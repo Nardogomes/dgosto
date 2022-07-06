@@ -2,9 +2,10 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyled = createGlobalStyle`
   :root {
-  --yellow-100: #f9e4cb;
-  --yellow-500: #f2ae30;
-  --blue-500: #048abf;
+    --gray-100: #F5F5F5;
+    --yellow-100: #f9e4cb;
+    --yellow-500: #f2ae30;
+    --blue-500: #048abf;
   }
 
   * {
@@ -20,5 +21,13 @@ export const GlobalStyled = createGlobalStyle`
   span {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+  }
+
+  body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 `;
