@@ -1,0 +1,24 @@
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyled = createGlobalStyle`
+  :root {
+  --yellow-100: #f9e4cb;
+  --yellow-500: #f2ae30;
+  --blue-500: #048abf;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body,
+  input,
+  textarea,
+  button,
+  span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+`;
