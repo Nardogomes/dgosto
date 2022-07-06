@@ -2,7 +2,7 @@ import { Container, Content } from "./styles";
 
 import logoImg from "../../assets/logo.png";
 
-export function Home() {
+export function Signin() {
   return (
     <Container>
       <Content>
@@ -13,6 +13,8 @@ export function Home() {
           <label>Senha</label>
           <input type="password" />
           <button>Entrar</button>
+          <p>ou</p>
+          <button>Criar conta</button>
         </form>
       </Content>
     </Container>
