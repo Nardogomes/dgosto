@@ -61,6 +61,10 @@ export const Content = styled.div`
       text-align: center;
     }
 
+    a button {
+      width: 18rem;
+    }
+
     button {
       padding: 0.5rem;
       font-size: 1.2rem;

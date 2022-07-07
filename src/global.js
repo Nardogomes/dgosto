@@ -30,5 +30,4 @@ export const GlobalStyled = createGlobalStyle`
     align-items: center;
     justify-content: center;
   }
-
 `;
