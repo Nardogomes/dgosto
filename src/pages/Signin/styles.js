@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.main`
+export const Container = styled.div`
   width: 100vw;
   height: 100vh;
   background-color: var(--blue-500);
@@ -10,14 +10,7 @@ export const Container = styled.main`
   flex-direction: column;
 
   @media (min-width: 1020px) {
-    width: 50rem;
-    height: 32rem;
-    border-radius: 4px;
-    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: var(--gray-100);
   }
 `;
 
@@ -61,6 +54,10 @@ export const Content = styled.div`
       text-align: center;
     }
 
+    a button {
+      width: 18rem;
+    }
+
     button {
       padding: 0.5rem;
       font-size: 1.2rem;
@@ -78,9 +75,24 @@ export const Content = styled.div`
   }
 
   @media(min-width: 1020px) {
+    width: 50rem;
+    height: 32rem;
+    margin: 3rem auto 0;
+    border-radius: 4px;
+    background-color: var(--blue-500);
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 5rem;
+
+    header {
+      display: block;
+      width: 100%;
+      height: 10rem;
+      background-color: var(--blue-500);
+    }
 
     img, form {
       margin-top: 0;
