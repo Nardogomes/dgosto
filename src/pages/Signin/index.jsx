@@ -1,6 +1,8 @@
-import { Container, Content } from "./styles";
+import { Link } from "react-router-dom";
 
 import logoImg from "../../assets/logo.png";
+
+import { Container, Content } from "./styles";
 
 export function Signin() {
   return (
@@ -12,7 +14,9 @@ export function Signin() {
           <input type="text" />
           <label>Senha</label>
           <input type="password" />
-          <button>Entrar</button>
+          <Link to={"home"}>
+            <button>Entrar</button>
+          </Link>
           <p>ou</p>
           <button>Criar conta</button>
         </form>
