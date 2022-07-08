@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+import { Header } from "../../components/Header";
+
 import logoImg from "../../assets/logo.png";
 
 import { Container, Content } from "./styles";
@@ -7,6 +9,7 @@ import { Container, Content } from "./styles";
 export function Signin() {
   return (
     <Container>
+      <Header />
       <Content>
         <img src={logoImg} alt="Logomarca da empresa D'gosto" />
         <form>
