@@ -22,12 +22,4 @@ export const GlobalStyled = createGlobalStyle`
     font-family: "Roboto", sans-serif;
     font-weight: 400;
   }
-
-  body {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 `;
