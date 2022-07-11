@@ -21,6 +21,14 @@ export const Content = styled.div`
     color: var(--yellow-500);
   }
 
+  .cards {
+    cursor: pointer;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
   .card {
     width: 20rem;
     height: 20rem;
@@ -54,6 +62,12 @@ export const Content = styled.div`
 
     .card {
       background-color: var(--blue-500);
+    }
+
+    .card:hover {
+      h2 {
+        color: var(--yellow-100);
+      }
     }
   }
 `;
