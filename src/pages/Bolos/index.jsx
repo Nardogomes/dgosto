@@ -1,3 +1,5 @@
+import { Header } from "../../components/Header";
+
 import { Container, Content } from "./styles";
 
 const bolos = [
@@ -24,6 +26,7 @@ const bolos = [
 export function Bolos() {
   return (
     <Container>
+      <Header />
       <Content>
         {bolos.map((bolo, index) => {
           return (
@@ -31,7 +34,10 @@ export function Bolos() {
               <img src={bolo.img} alt={bolo.title} />
               <h1>{bolo.title}</h1>
               <p>{bolo.description}</p>
-              <span>{bolo.price}</span>
+              <footer>
+                <button>Comprar</button>
+                <span>{bolo.price}</span>
+              </footer>
             </div>
           );
         })}
