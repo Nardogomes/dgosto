@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
-
 import { Header } from "../../components/Header";
 
 import logoImg from "../../assets/logo.png";
 
 import { Container, Content } from "./styles";
 
-export function Signin() {
+export function Signup() {
   return (
     <Container>
       <Header />
@@ -17,12 +16,10 @@ export function Signin() {
           <input type="text" />
           <label>Senha</label>
           <input type="password" />
+          <label>Confirmar senha</label>
+          <input type="password" />
           <Link to={"/home"}>
-            <button>Entrar</button>
-          </Link>
-          <p>ou</p>
-          <Link to={"/signup"}>
-            <button>Criar conta</button>
+            <button>Cadastrar</button>
           </Link>
         </form>
       </Content>

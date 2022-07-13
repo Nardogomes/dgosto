@@ -2,7 +2,7 @@ import { Header } from "../../components/Header";
 
 import { Container, Content } from "./styles";
 
-const bolos = [
+const doces = [
   {
     img: "https://images.unsplash.com/photo-1602351447937-745cb720612f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNha2VzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
     title: "Bolo de chocolate",
@@ -24,23 +24,23 @@ const bolos = [
   },
 ];
 
-export function Bolos() {
+export function Doces() {
   return (
     <Container>
       <Header />
       <Content>
-        <h1>Bolos</h1>
+        <h1>Doces</h1>
 
         <div className="cards">
-          {bolos.map((bolo, index) => {
+          {doces.map((doce, index) => {
             return (
               <div key={index} className="card">
-                <img src={bolo.img} alt={bolo.title} />
-                <h1>{bolo.title}</h1>
-                <p>{bolo.description}</p>
+                <img src={doce.img} alt={doce.title} />
+                <h1>{doce.title}</h1>
+                <p>{doce.description}</p>
                 <footer>
                   <button>Comprar</button>
-                  <span>{bolo.price}</span>
+                  <span>{doce.price}</span>
                 </footer>
               </div>
             );
