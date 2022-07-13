@@ -21,10 +21,30 @@ export const Content = styled.div`
   flex-direction: column;
   align-items: center;
 
-  h1 {
-    margin: 2rem 0;
-    font-size: 2.5rem;
-    color: var(--yellow-500);
+  header {
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      margin: 2rem 0;
+      font-size: 2.5rem;
+      color: var(--yellow-500);
+    }
+
+    a {
+      background-color: var(--yellow-500);
+      width: 5rem;
+      height: 2rem;
+      font-size: 1.2rem;
+      border-radius: 4px;
+      text-decoration: none;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
   .card {
@@ -84,6 +104,10 @@ export const Content = styled.div`
   @media (min-width: 1020px) {
     max-width: 74rem;
     flex-direction: column;
+
+    header {
+      width: 64rem;
+    }
 
     .cards {
       display: flex;

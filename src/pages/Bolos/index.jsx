@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Header } from "../../components/Header";
 
 import { Container, Content } from "./styles";
@@ -29,7 +30,12 @@ export function Bolos() {
     <Container>
       <Header />
       <Content>
-        <h1>Bolos</h1>
+        <header>
+          <h1>Bolos</h1>
+          <Link to={"/home"}>
+            <span>{"< Voltar"}</span>
+          </Link>
+        </header>
 
         <div className="cards">
           {bolos.map((bolo, index) => {
