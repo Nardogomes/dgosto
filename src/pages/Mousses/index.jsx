@@ -5,23 +5,23 @@ import { Container, Content } from "./styles";
 
 const mousses = [
   {
-    img: "https://images.unsplash.com/photo-1602351447937-745cb720612f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNha2VzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
-    title: "Bolo de chocolate",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf9dU1IVocML7OIUkQGV23qQtJTC9yfwyxN9M7gXFD-g_ETCCbKVr9pun47Zv_6DR9tKk&usqp=CAU",
+    title: "Mousse de chocolate",
     description:
-      "Delicioso bolo fofo de cholate com cobertura de calda de chocolate.",
-    price: "R$ 50,00",
+      "Delicioso mousse sabor cholate.",
+    price: "R$ 6,00",
   },
   {
-    img: "https://images.unsplash.com/photo-1497730620907-6a4cf807bb94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-    title: "Bolo de laranja",
-    description: "Delicioso bolo fofo sabor laranja.",
-    price: "R$ 30,00",
+    img: "https://live.staticflickr.com/8431/7660210116_5520062860_c.jpg",
+    title: "Mousse de morango",
+    description: "Delicioso mousse sabor morango.",
+    price: "R$ 6,00",
   },
   {
-    img: "https://images.unsplash.com/photo-1497730620907-6a4cf807bb94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-    title: "Bolo de laranja",
-    description: "Delicioso bolo fofo sabor laranja.",
-    price: "R$ 30,00",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7O8H_FIIFr2BV3Ol793ZJo6Tj7UWDzQv85Q&usqp=CAU",
+    title: "Mousse de maracujá",
+    description: "Delicioso mousse sabor maracujá.",
+    price: "R$ 6,00",
   },
 ];
 

@@ -5,23 +5,23 @@ import { Container, Content } from "./styles";
 
 const doces = [
   {
-    img: "https://images.unsplash.com/photo-1602351447937-745cb720612f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNha2VzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
-    title: "Bolo de chocolate",
+    img: "https://live.staticflickr.com/8303/7989675237_faf24a0643_z.jpg",
+    title: "Brigadeiro",
     description:
-      "Delicioso bolo fofo de cholate com cobertura de calda de chocolate.",
-    price: "R$ 50,00",
+      "Delicioso brigadeiro de cholate.",
+    price: "R$ 5,00",
   },
   {
-    img: "https://images.unsplash.com/photo-1497730620907-6a4cf807bb94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-    title: "Bolo de laranja",
-    description: "Delicioso bolo fofo sabor laranja.",
-    price: "R$ 30,00",
+    img: "https://live.staticflickr.com/1581/25204939325_121639b01c_b.jpg",
+    title: "Beijinho",
+    description: "Delicioso beijinho.",
+    price: "R$ 5,00",
   },
   {
-    img: "https://images.unsplash.com/photo-1497730620907-6a4cf807bb94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-    title: "Bolo de laranja",
-    description: "Delicioso bolo fofo sabor laranja.",
-    price: "R$ 30,00",
+    img: "https://upload.wikimedia.org/wikipedia/commons/b/b1/Alfajores_Per%C3%BA.jpg",
+    title: "Casadinho",
+    description: "Delicioso casadinho.",
+    price: "R$ 5,00",
   },
 ];
 
