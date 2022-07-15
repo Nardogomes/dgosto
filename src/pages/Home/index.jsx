@@ -8,8 +8,12 @@ export function Home() {
     <Container>
       <Content>
         <Header />
-
-        <h1>Categorias</h1>
+        <header>
+          <h1>Categorias</h1>
+          <Link to={"/"}>
+            <span>{"< Sair"}</span>
+          </Link>
+        </header>
 
         <div className="cards">
           <Link to={"/bolos"}>

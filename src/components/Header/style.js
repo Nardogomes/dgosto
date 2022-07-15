@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: 8rem;
   background-color: var(--blue-500);
 
-  @media(max-width: 1020px) {
+  @media (max-width: 1020px) {
     display: none;
   }
 `;
@@ -13,8 +13,8 @@ export const Container = styled.div`
 export const Content = styled.div`
   max-width: 76rem;
   margin: 0 auto;
-  padding: 1.8rem 1rem 0 1rem;
-  
+  padding: 1rem 1rem 0 1rem;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
